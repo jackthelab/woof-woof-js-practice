@@ -110,8 +110,9 @@ function toggleBehavior(event, dog){
         .then(_ => {
             // fetchDogs()
             dog.isGoodDog = !behavior
+            fetchDogs()
         })
-    fetchDogs()
+    // fetchDogs()
     
     // console.log(dog.isGoodDog)
 }
